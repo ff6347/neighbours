@@ -1,7 +1,7 @@
 neighbours
 ==========
 
-Algorithm for finding the neighbours in a list. 
+Algorithm for finding the neighbours in a 1D list. 
 
     +---+---+---+
     | 0 | 3 | 6 |
