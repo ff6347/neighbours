@@ -1,0 +1,19 @@
+{
+  "name": "neighbours",
+  "version": "1.0.0",
+  "description": "Algorithm for finding the neighbours in a 1D list",
+  "main": "neighbours.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiantheblind/neighbours.git"
+  },
+  "author": "Fabian \"fabiantheblind\" Morón Zirfas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fabiantheblind/neighbours/issues"
+  },
+  "homepage": "https://github.com/fabiantheblind/neighbours#readme"
+}
