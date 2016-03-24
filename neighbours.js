@@ -100,10 +100,10 @@ var get_neighbours = function(ndx, list, width, height, steps) {
     neighbours.push(ndx + h_steps);
     neighbours.push(ndx + (h_steps - 1));
     neighbours.push(ndx - 1);
-    // neighbours.push(ndx + 1);
-    // neighbours.push(ndx - (h_steps + 1));
-    // neighbours.push(ndx - h_steps);
-    // neighbours.push(ndx - (h_steps - 1));
+  // neighbours.push(ndx + 1);
+  // neighbours.push(ndx - (h_steps + 1));
+  // neighbours.push(ndx - h_steps);
+  // neighbours.push(ndx - (h_steps - 1));
   }
   if (top === true && left === false && right === false) {
     neighbours = [];
@@ -125,7 +125,7 @@ var get_neighbours = function(ndx, list, width, height, steps) {
     // neighbours.push(ndx + 1);
     neighbours.push(ndx - (h_steps + 1));
     neighbours.push(ndx - h_steps);
-    // neighbours.push(ndx - (h_steps - 1));
+  // neighbours.push(ndx - (h_steps - 1));
   }
 
   if (centered === true) {
@@ -140,7 +140,7 @@ var get_neighbours = function(ndx, list, width, height, steps) {
     neighbours.push(ndx - (h_steps - 1));
   }
 
-return neighbours;
+  return neighbours;
 };
 var main = function() {
   var w = 100;
@@ -151,9 +151,9 @@ var main = function() {
   for (var x = s; x < w; x += s) {
     for (var y = s; y < h; y += s) {
       points.push({
-        "x": x,
-        "y": y,
-        "ndx": counter
+        x: x,
+        y: y,
+        ndx: counter
       });
       counter++;
     }
